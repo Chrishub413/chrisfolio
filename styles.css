@@ -1,0 +1,97 @@
+
+
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+  }
+  .header-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    justify-content: center;
+  }
+  
+  /* Style each heading */
+  h2, h3, h4 {
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+    font-weight: bold;
+    text-shadow: none; /* remove any existing text shadow */
+  }
+  
+  /* Adjust margin or padding as needed */
+  h1 {
+    font-size: 400%;
+    margin: 0;
+  }
+  
+  h2, h3, h4 {
+    margin: 0; /* adjust as needed */
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #6b38c4;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .btn:hover {
+    transform: scale(1.1);
+  }
+
+  .summary-box {
+    background-color: #6b38c4;
+    padding: 2px;
+    margin: 0 auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .summary-box h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: antiquewhite;
+  }
+  
+  .summary-box p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: antiquewhite;
+  }
+
+  
+  
+  .skills-section {
+    margin-top: 40px;
+    margin-right: 700px; 
+  }
+  
+  .skills-section h2 {
+    font-size: 24px;
+  }
+  
+  .skills-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .skills-list li {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 16px;
+    padding: 8px 12px;
+    border-radius: 5px;
+  }
